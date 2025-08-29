@@ -1,0 +1,15 @@
+{
+  "name": "tarefa-24-graphql-api",
+  "version": "1.0.0",
+  "description": "Exercício M24 - Automação de API com GraphQL + PactumJS + Joi + Allure",
+  "scripts": {
+    "test": "jest --runInBand --detectOpenHandles --forceExit",
+    "report:allure": "allure generate allure-results --clean -o allure-report && allure open allure-report"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "pactum": "^3.6.8",
+    "joi": "^17.13.3",
+    "allure-commandline": "^2.30.0"
+  }
+}
